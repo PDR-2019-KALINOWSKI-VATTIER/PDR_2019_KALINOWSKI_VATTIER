@@ -1,1 +1,3 @@
 # PDR_2019_KALINOWSKI_VATTIER
+
+Lors de ce projet de PDR...

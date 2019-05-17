@@ -18,11 +18,11 @@ II - Prise en main de l'environnement
 
   1) Linux
 
-N'ayant jamais jamais eu de cours,  ni utilisé Linux, il nous a fallu une période d'apprentissage et de familiarisation avec ce système d'exploitation, notament pour naviguer, télécharger, créer des fichiers, paquets etc.
+N'ayant jamais jamais eu de cours, ni utilisé Linux, il nous a fallu une période d'apprentissage et de familiarisation avec ce système d'exploitation, notament pour naviguer, télécharger, créer des répertoires, fichiers etc.
 
   2) ROS
 
-ROS est le point de départ de notre projet. En effet, c'est lui qui nous permet de contrôler la caméra, le robot et de les interconnecter.
+ROS est le point de départ de notre projet. En effet, c'est lui qui nous permet de contrôler la caméra et le robot, de les interconnecter et de les piloter.
 De ce fait, nous avons suivi le tutoriel ROS wiki, afin d'installer ROS (ainsi que plusieures librairies) et de nous familiariser avec ses fonctionnalités principales. Nous avons donc appris à utiliser des subscribers, publishers de manière à interragir sur les noeuds etc.
 Afin de comprendre plus concrêtement le rôle de tous ces paramètres, nous avons suivi l'exemple de "Turtlesim", qui consiste à faire déplacer une petite tortue dans son environnement virtuel. Grâce à cet exemple, nous avons pu appliquer ces principes sur le robot Kobuki et le faire ainsi déplacer dans l'espace. La commande "teleop" permet entre autres de prendre le contrôle du robot assez aisément.
 

@@ -10,8 +10,8 @@ Pour réaliser ce projet, nous avons à notre disposition:
 -Une caméra Realsense 2
 -Un robot Kobuki
 -Un PC sous Linux
-
-
+ 
+ 
 
 II - Prise en main de l'environnement
 
@@ -52,6 +52,8 @@ Le code *goforward.py* permet au robot d'avancer à une vitesse voulue à son la
 Nous avons commencé par écrire le script python *move_and_stop.py* qui fait avancer le robot et l'arrête à la détection du premier QR-Code. Les programmes sont structurés en séparant l'analyse d'image et la commande du robot qui s'appuie sur cette dernière.
 
 Nous avons ensuite écrit le script python *move_and_dodge.py* qui fait tourner le robot à 90° lorsqu'un QR-Code est détecté. Afin de donner les bonnes instructions de mouvement au robot (par exemple tourner de 90°), nous avons au préalable fait quelques calculs et réalisé des tests afin d'ajuster vitesse angulaire de rotation et durée de virage.
+
+![image1](Assets/vitesse.jpg)
 
 Il reste à présent réaliser le projet final et répondre au besoin du robot, à savoir éviter les obstacles lors de son déplacement.
 

@@ -1,6 +1,6 @@
 # PDR_2019_KALINOWSKI_VATTIER
 
-Pojet de découverte de recherche: "Localiser des QR-Codes dans l'espace à l'aide d'un robot muni d'une caméra 3D puis le robot dans son environnement."
+Projet de découverte de recherche: "Localiser des QR-Codes dans l'espace à l'aide d'un robot muni d'une caméra 3D puis le robot dans son environnement."
 
 I - Présentation du projet
 

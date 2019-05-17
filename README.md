@@ -53,7 +53,7 @@ Nous avons commencé par écrire le script python *move_and_stop.py* qui fait av
 
 Nous avons ensuite écrit le script python *move_and_dodge.py* qui fait tourner le robot à 90° lorsqu'un QR-Code est détecté. Afin de donner les bonnes instructions de mouvement au robot (par exemple tourner de 90°), nous avons au préalable fait quelques calculs et réalisé des tests afin d'ajuster vitesse angulaire de rotation et durée de virage.
 
-![image1](Assets/vitesse.jpg)
+![image1](Assets/vitesse.png "Schéma détaillant le principe de l'algorithme move_and_dodge.py")
 
 Il reste à présent réaliser le projet final et répondre au besoin du robot, à savoir éviter les obstacles lors de son déplacement.
 

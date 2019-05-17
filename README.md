@@ -2,7 +2,16 @@
 
 Projet de découverte de recherche: "Localiser des QR-Codes dans l'espace à l'aide d'un robot muni d'une caméra 3D puis le robot dans son environnement."
 
-I - Présentation du projet
+Table des matières
+
+  I - Présentation du projet  
+ II - Prise en main de l'environnement  
+III - Réalisation du projet  
+ IV - Propositions d'améliorations  
+
+![image1](Assets/equipement.jpg)
+
+# I - Présentation du projet
 
 Le dévelopement de la robotique impose une nécessité de plus en plus importante d'interragir avec l'environnement. Pour cela, il faut que le robot ait une bonne reconnaissance des objets qui l'entourent.
 Le but de ce PDR est de permettre au robot d'éviter les obstacles au moyen d'une caméra et de QR-Codes placés dans l'environnement.
@@ -13,7 +22,7 @@ Pour réaliser ce projet, nous avons à notre disposition:
  
  
 
-II - Prise en main de l'environnement
+# II - Prise en main de l'environnement
 
   1) Linux
 
@@ -31,7 +40,7 @@ OpenCV est une bibliothèque graphique libre. Nous avons utilisé la biliothèqu
   
   
 
-III - Réalisation du projet
+# III - Réalisation du projet
 
 Les scripts python que nous avons écrits ainsi qu'un script bash se trouvent dans le répertoire */PDR_2019_KALINOWSKI_VATTIER/pdr2019_ck_av/src/*. Tous scripts python ont en-tête qui détaille leur utilisation et sont commentés.
 
@@ -53,7 +62,7 @@ Nous avons commencé par écrire le script python *move_and_stop.py* qui fait av
 
 Nous avons ensuite écrit le script python *move_and_dodge.py* qui fait tourner le robot à 90° lorsqu'un QR-Code est détecté. Afin de donner les bonnes instructions de mouvement au robot (par exemple tourner de 90°), nous avons au préalable fait quelques calculs et réalisé des tests afin d'ajuster vitesse angulaire de rotation et durée de virage.
 
-![image1](Assets/vitesse.png "Schéma détaillant le principe de l'algorithme move_and_dodge.py")
+![image2](Assets/vitesse.png "Schéma détaillant le principe de l'algorithme move_and_dodge.py")
 
 Il reste à présent réaliser le projet final et répondre au besoin du robot, à savoir éviter les obstacles lors de son déplacement.
 
@@ -62,7 +71,7 @@ Puis nous avons créé deux programmes, *move_2_codes.py* et *maze.py*, qui en f
 
 Enfin nous avons testé l'execution de ce programme dans un environnement rempli d'obstacles identifiés par des QR-Codes. Le robot évite bien l'ensemble des obstacles, ce qui valide le résultat que nous souhaitions.
 
-IV - Propositions d'améliorations
+# IV - Propositions d'améliorations
 
 Les programmes que nous avons écrit ne prennent pas en compte la notion de distance à l'obstacle. Nous avons cherché à faire fonctionner la caméra de profondeur (*depth camera*) mais n'avons réussi à l'exploiter. Le code *depth_camera.py* et les autres versions présentent nos tentatives d'exploiter la profondeur à partir de la détection d'un QR-Code.
 Il pourrait être intéressant de donner au robot un ordre pour esquiver un obstacle en fonction de la distance qui le sépare de celui-ci.

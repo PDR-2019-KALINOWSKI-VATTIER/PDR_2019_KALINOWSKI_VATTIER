@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+""" Ce code permet de detecter la presence de QR code et de publier les informations
+    relatives a sa position et son nom dans le topic /detected_barcode a partir de
+    la camera couleur.""" 
+
 # Python libs
 import sys, time
 import numpy as np

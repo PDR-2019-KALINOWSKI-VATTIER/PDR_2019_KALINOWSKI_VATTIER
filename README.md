@@ -74,6 +74,8 @@ Enfin nous avons testé l'execution de ce programme dans un environnement rempli
 # IV - Propositions d'améliorations
 
 Les programmes que nous avons écrit ne prennent pas en compte la notion de distance à l'obstacle. Nous avons cherché à faire fonctionner la caméra de profondeur (*depth camera*) mais n'avons réussi à l'exploiter. Le code *depth_camera.py* et les autres versions présentent nos tentatives d'exploiter la profondeur à partir de la détection d'un QR-Code.
+
 Il pourrait être intéressant de donner au robot un ordre pour esquiver un obstacle en fonction de la distance qui le sépare de celui-ci.
 L'utilisation de la notion de profondeur ainsi que de l'odométrie pourrait permettre de cartographier l'environnement à l'aide de *Markers*. On pourrait associer à chaque QR-Code les dimensions de l'objet sur lequel il est fixé pour que le robot soit capable de l'éviter (bounding box).
+
 On pourrait également mettre en place un scan grâce à la caméra de profondeur de la même manière qu'un laser.

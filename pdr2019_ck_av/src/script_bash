@@ -1,0 +1,7 @@
+roscore &
+source ~/qrcode_ws/devel/setup.bash
+roslaunch realsense2_camera rs_camera.launch &
+rosrun zbar_ros barcode_reader_node &
+rosrun image_transport republish raw in:=/camera/color/image_raw raw out:=/image &
+rostopic echo /barcode &
+
